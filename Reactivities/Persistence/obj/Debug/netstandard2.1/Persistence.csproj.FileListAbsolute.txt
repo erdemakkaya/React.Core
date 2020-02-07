@@ -9,3 +9,14 @@ D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persisten
 D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CopyComplete
 D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.dll
 D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.1\Persistence.deps.json
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.1\Persistence.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.1\Persistence.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.1\Domain.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.1\Domain.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csprojAssemblyReference.cache
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfoInputs.cache
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfo.cs
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CopyComplete
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.pdb

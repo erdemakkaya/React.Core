@@ -8,19 +8,23 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\deniz\\.nuget\\packages\\": {}
+    "C:\\Users\\ABS\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
-      "outputPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\obj\\",
+      "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\ABS\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ABS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

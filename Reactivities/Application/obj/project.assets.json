@@ -1237,19 +1237,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\deniz\\.nuget\\packages\\": {}
+    "C:\\Users\\ABS\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ffmepg\\React.Core\\Reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
-      "outputPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Application\\obj\\",
+      "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\ABS\\.nuget\\packages\\",
+      "outputPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ABS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1262,11 +1266,11 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\Domain.csproj"
+            "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
             },
-            "D:\\Ffmepg\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Persistence\\Persistence.csproj"
+            "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }

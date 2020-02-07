@@ -11,3 +11,16 @@ D:\Ffmepg\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Applicati
 D:\Ffmepg\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Application.csproj.CopyComplete
 D:\Ffmepg\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Application.dll
 D:\Ffmepg\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Application.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\bin\Debug\netstandard2.1\Application.deps.json
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\bin\Debug\netstandard2.1\Application.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\bin\Debug\netstandard2.1\Application.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\bin\Debug\netstandard2.1\Domain.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\bin\Debug\netstandard2.1\Persistence.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\bin\Debug\netstandard2.1\Domain.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\bin\Debug\netstandard2.1\Persistence.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Application.csprojAssemblyReference.cache
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Application.AssemblyInfoInputs.cache
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Application.AssemblyInfo.cs
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Application.csproj.CopyComplete
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Application.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.1\Application.pdb
