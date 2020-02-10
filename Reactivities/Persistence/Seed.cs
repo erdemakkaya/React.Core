@@ -1,7 +1,7 @@
 using Domain;
 using System;
 using System.Linq;
-using System.Collections;
+using System.Collections.Generic;
 
 namespace Persistence
 {
@@ -11,10 +11,9 @@ namespace Persistence
 
            if (!context.Activities.Any())
            {
-               var activities=new List<Actitivity>()
+               var activities=new List<Activity>
                {
-                   new Activity
-{
+                   new Activity{
     Title = "Past Activity 1",
     Date = DateTime.Now.AddMonths(-2),
     Description = "Activity 2 months ago",
