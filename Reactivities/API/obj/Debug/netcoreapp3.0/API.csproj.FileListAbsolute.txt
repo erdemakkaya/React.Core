@@ -113,3 +113,5 @@ D:\Ffmepg\React.Core\Reactivities\API\bin\Debug\netcoreapp3.0\System.Collections
 D:\Ffmepg\React.Core\Reactivities\API\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
 D:\Ffmepg\React.Core\Reactivities\API\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
 D:\Ffmepg\React.Core\Reactivities\API\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Ffmepg\React.Core\Reactivities\API\bin\Debug\netcoreapp3.0\MediatR.dll
+D:\Ffmepg\React.Core\Reactivities\API\bin\Debug\netcoreapp3.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
