@@ -31,7 +31,9 @@ namespace DatingApp.API.Controllers {
 
         // POST api/values
         [HttpPost]
-        public void Post ([FromBody] string value) { }
+        public async Task<ActionResult<Unit>> Post (Create.Command command) {
+            return await _mediator.Send(command);
+        }
 
         // PUT api/values/5
         [HttpPut ("{id}")]
