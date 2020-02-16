@@ -1,13 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Application.Activities;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-namespace DatingApp.API.Controllers {
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+namespace DatingApp.API.Controllers
+{
     [Route ("api/[controller]")]
     [ApiController]
     public class ActivitiesController : ControllerBase {
@@ -37,10 +36,16 @@ namespace DatingApp.API.Controllers {
 
         // PUT api/values/5
         [HttpPut ("{id}")]
-        public void Put (int id, [FromBody] string value) { }
+        public async Task<ActionResult<Unit>> Put (Guid id,Edit.Command command) {
+            command.Id = id;
+            return await _mediator.Send(command);
+        }
 
         // DELETE api/values/5
-        [HttpDelete ("{id}")]
-        public void Delete (int id) { }
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Unit>> Delete(Guid id)
+        {
+            return await _mediator.Send(new Delete.Command { Id = id });
+        }
     }
 }
