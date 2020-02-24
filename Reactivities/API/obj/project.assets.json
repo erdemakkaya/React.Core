@@ -1279,19 +1279,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\deniz\\.nuget\\packages\\": {}
+    "C:\\Users\\erdem\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ffmepg\\React.Core\\Reactivities\\API\\API.csproj",
+      "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
-      "outputPath": "D:\\Ffmepg\\React.Core\\Reactivities\\API\\obj\\",
+      "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
+      "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1304,11 +1304,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\Ffmepg\\React.Core\\Reactivities\\Application\\Application.csproj": {
-              "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Application\\Application.csproj"
+            "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
+              "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj"
             },
-            "D:\\Ffmepg\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Persistence\\Persistence.csproj"
+            "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -1348,7 +1348,7 @@
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.0.2, 3.0.2]"
+            "version": "[3.0.3, 3.0.3]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
@@ -1367,7 +1367,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

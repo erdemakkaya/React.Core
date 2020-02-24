@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ffmepg\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {}
+    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
-        "outputPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\obj\\",
+        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
+        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Ffmepg\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
+    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ffmepg\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
-        "outputPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Persistence\\obj\\",
+        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
+        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,8 +79,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Ffmepg\\React.Core\\Reactivities\\Domain\\Domain.csproj"
+              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -118,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

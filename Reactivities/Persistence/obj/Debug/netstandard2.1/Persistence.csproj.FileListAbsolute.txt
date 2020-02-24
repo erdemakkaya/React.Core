@@ -20,3 +20,14 @@ D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\nets
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CopyComplete
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.dll
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.pdb
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\bin\Debug\netstandard2.1\Persistence.deps.json
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\bin\Debug\netstandard2.1\Persistence.dll
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\bin\Debug\netstandard2.1\Persistence.pdb
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\bin\Debug\netstandard2.1\Domain.dll
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\bin\Debug\netstandard2.1\Domain.pdb
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csprojAssemblyReference.cache
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfoInputs.cache
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfo.cs
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CopyComplete
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.dll
+F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.pdb
