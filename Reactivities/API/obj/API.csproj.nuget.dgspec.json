@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj": {}
+    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj": {
+    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj",
+        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\API\\obj\\",
+        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj"
+              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Application\\Application.csproj": {
+                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Application\\Application.csproj"
               },
-              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj"
+              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
+    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\obj\\",
+        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,11 +117,11 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
+              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\Domain.csproj"
               },
-              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj"
+              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -159,14 +159,14 @@
         }
       }
     },
-    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\obj\\",
+        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -211,14 +211,14 @@
         }
       }
     },
-    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
+    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -234,8 +234,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
+              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\Domain.csproj"
               }
             }
           }

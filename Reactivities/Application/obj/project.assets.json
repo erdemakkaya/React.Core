@@ -1290,11 +1290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
+      "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
-      "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\obj\\",
+      "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1310,11 +1310,11 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
+            "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Domain\\Domain.csproj"
             },
-            "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj"
+            "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }

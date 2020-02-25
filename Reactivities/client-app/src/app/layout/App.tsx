@@ -13,6 +13,11 @@ const App = () => {
     setSelectedActivity(activities.filter(a => a.id === id)[0]);
   };
   const[editMode,setEditMode]=useState(false);
+
+  const handleOpenCrateForm=()=>{
+    setSelectedActivity(null);
+    setEditMode(true);
+  }
   useEffect(() => {
     axios
       .get<IActivity[]>("http://localhost:5000/api/activities")
@@ -22,7 +27,7 @@ const App = () => {
   }, []);
   return (
     <Fragment>
-      <NavBar />
+      <NavBar openCreateForm={handleOpenCrateForm} />
       <Container style={{ marginTop: "7em" }}>
         <ActivityDashboard
           activities={activities}
@@ -30,6 +35,7 @@ const App = () => {
           selectedActivity={selectedActivity!}
           editMode={editMode}
           setEditMode={setEditMode}
+          setSelectedActivity={setSelectedActivity}
         />
       </Container>
     </Fragment>
