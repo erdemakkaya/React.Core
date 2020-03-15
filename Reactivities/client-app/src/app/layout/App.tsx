@@ -2,7 +2,7 @@ import React, { useState, useEffect, Fragment } from "react";
 import axios from "axios";
 import { IActivity } from "../models/activtites";
 import NavBar from "../features/navbar/NavBar";
-import { Container, List } from "semantic-ui-react";
+import { Container } from "semantic-ui-react";
 import { ActivityDashboard } from "../features/activities/dashboard/ActivityDashboard";
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
   );
   const handleSelectActivity = (id: string) => {
     setSelectedActivity(activities.filter(a => a.id === id)[0]);
+    setEditMode(false);
   };
   const[editMode,setEditMode]=useState(false);
 
@@ -18,11 +19,29 @@ const App = () => {
     setSelectedActivity(null);
     setEditMode(true);
   }
+  const handleCreateActivity=(activity:IActivity)=>{
+    setActivities([...activities,activity])
+    setSelectedActivity(activity);
+    setEditMode(false);
+  }
+  const handleEditActivity=(activtiy:IActivity)=>{
+    setActivities([...activities.filter(a=>a.id!==activtiy.id),activtiy])
+    setSelectedActivity(activtiy);
+    setEditMode(false);
+  }
+  const handleDeleteActivity=(id:string)=>{
+    setActivities([...activities.filter(a=>a.id!==id)])
+  }
   useEffect(() => {
     axios
       .get<IActivity[]>("http://localhost:5000/api/activities")
       .then(response => {
-        setActivities(response.data);
+        let activities:IActivity[]=[];
+        response.data.forEach(activity=>{
+          activity.date=activity.date.split('.')[0];
+          activities.push(activity);
+        })
+        setActivities(activities);
       });
   }, []);
   return (
@@ -36,6 +55,9 @@ const App = () => {
           editMode={editMode}
           setEditMode={setEditMode}
           setSelectedActivity={setSelectedActivity}
+          createActivity={handleCreateActivity}
+          editActivity={handleEditActivity}
+          deleteActivity={handleDeleteActivity}
         />
       </Container>
     </Fragment>

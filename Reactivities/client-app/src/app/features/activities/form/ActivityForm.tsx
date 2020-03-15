@@ -1,14 +1,19 @@
 import React, { useState, FormEvent } from "react";
 import { Segment, Form, Button } from "semantic-ui-react";
 import { IActivity } from "../../../models/activtites";
+import {v4 as uuid} from 'uuid'
 
 interface IProps {
   setEditMode: (editMode: boolean) => void;
   activity: IActivity;
+  createActivity: (activity: IActivity) => void;
+  editActivity: (activity: IActivity) => void;
 }
 export const ActivityForm: React.FC<IProps> = ({
   setEditMode,
-  activity: initialFormState
+  activity: initialFormState,
+  createActivity,
+  editActivity
 }) => {
   const initializeForm = () => {
     if (initialFormState) {
@@ -27,9 +32,23 @@ export const ActivityForm: React.FC<IProps> = ({
   };
 
   const [activity, setActivity] = useState<IActivity>(initializeForm);
-  const handleInputChange = (event: FormEvent<HTMLInputElement|HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    event: FormEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = event.currentTarget; //event target içindeki const ve  value ye ulaştık bu şekilde kod sadeliği elde etmiş olduk
     setActivity({ ...activity, [name]: value }); //name alanı ile textboxdaki name değerini alarak dinamik bir set mekanizması kurduk ve tüm txtboxlara name vererek kullanabiliriz
+  };
+  const handleSubmit = () => {
+   if(activity.id.length===0){
+     let newActivity={
+       ...activity,
+       id:uuid()
+     }
+     createActivity(newActivity);
+   }
+   else{
+     editActivity(activity);
+   }
   };
   return (
     <Segment clearing>
@@ -40,7 +59,12 @@ export const ActivityForm: React.FC<IProps> = ({
           placeholder="Title"
           value={activity.title}
         />
-        <Form.Input placeholder="Category" value={activity.category} />
+        <Form.Input
+          onChange={handleInputChange}
+          name="category"
+          placeholder="Category"
+          value={activity.category}
+        />
         <Form.TextArea
           onChange={handleInputChange}
           name="description"
@@ -51,7 +75,7 @@ export const ActivityForm: React.FC<IProps> = ({
         <Form.Input
           onChange={handleInputChange}
           name="date"
-          type="date"
+          type="datetime-local"
           placeholder="Date"
           value={activity.date}
         />
@@ -61,8 +85,15 @@ export const ActivityForm: React.FC<IProps> = ({
           placeholder="City"
           value={activity.city}
         />
-        <Form.Input placeholder="Venue" value={activity.venue} />
-        <Button floated="right" positive type="submit" content="Submit" />
+        <Form.Input onChange={handleInputChange}
+          name="venue" placeholder="Venue" value={activity.venue} />
+        <Button
+          onClick={handleSubmit}
+          floated="right"
+          positive
+          type="submit"
+          content="Submit"
+        />
         <Button
           onClick={() => setEditMode(false)}
           floated="right"
