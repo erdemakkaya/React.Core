@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {}
+    "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+    "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\obj\\",
+        "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ABS\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ABS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,21 +55,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
+    "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\erdem\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\obj\\",
+        "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\ABS\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\erdem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ABS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,8 +85,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "F:\\Users\\erdem\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -118,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
