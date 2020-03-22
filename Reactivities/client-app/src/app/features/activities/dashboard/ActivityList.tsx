@@ -17,12 +17,12 @@ export const ActivityList: React.FC<IProps> = ({
   target
 }) => {
    const activityStore = useContext(ActivityStore);
-  const {activities, selectActivity,} = activityStore;
+  const {activitesByDate, selectActivity,} = activityStore;
   return (
   
     <Segment clearing>
       <Item.Group divided>
-        {activities.map(activity => (
+        {activitesByDate.map(activity => (
           <Item key={activity.id}>
             <Item.Image size="tiny" src="/images/wireframe/image.png" />
             <Item.Content>
