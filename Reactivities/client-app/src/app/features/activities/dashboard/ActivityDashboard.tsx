@@ -3,23 +3,17 @@ import { Grid } from "semantic-ui-react";
 import { IActivity } from "../../../../app/models/activtites";
 import { ActivityList } from "./ActivityList";
 import ActivityDetails from "./ActivityDetails";
-import { ActivityForm } from "../form/ActivityForm";
+import ActivityForm from "../form/ActivityForm";
 import ActivityStore from '../../../../app/stores/activityStore';
 import { observer } from "mobx-react-lite";
 
 interface IProps {
-  setEditMode: (editMode: boolean) => void;
-  setSelectedActivity: (activity: IActivity | null) => void;
-  editActivity: (activity: IActivity) => void;
   deleteActivity: (e: SyntheticEvent<HTMLButtonElement>, id: string) => void;
   submitting: boolean;
   target: string;
 }
 
  const ActivityDashboard: React.FC<IProps> = ({
-  setEditMode,
-  setSelectedActivity,
-  editActivity,
   deleteActivity,
   submitting,
   target
@@ -37,18 +31,12 @@ interface IProps {
       </Grid.Column>
       <Grid.Column width={6}>
         {selectedActivity && !editMode && (
-          <ActivityDetails
-            setEditMode={setEditMode}
-            setSelectedActivity={setSelectedActivity}
-          />
+          <ActivityDetails/>
         )}
         {editMode && (
           <ActivityForm
             key={(selectedActivity && selectedActivity.id) || 0}
-            setEditMode={setEditMode}
             activity={selectedActivity!}
-            editActivity={editActivity}
-            submitting={submitting}
           />
         )}
       </Grid.Column>

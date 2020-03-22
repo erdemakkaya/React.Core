@@ -4,7 +4,7 @@ import { IActivity } from "../models/activtites";
 import agent from "../api/agent";
 
 class ActivityStore {
-    @observable activityRegistry=new Map();
+  @observable activityRegistry=new Map();
   @observable activities: IActivity[] = [];
   @observable selectedActivity: IActivity | undefined;
   @observable loadingInitial = false;
@@ -12,8 +12,9 @@ class ActivityStore {
   @observable submitting = false;
 
   @computed get activitesByDate(){
-      return Array.from(this.activityRegistry.values())
-      .sort((a,b)=>Date.parse(a.date)-Date.parse(b.date))
+    return Array.from(this.activityRegistry.values()).sort(
+      (a, b) => Date.parse(a.date) - Date.parse(b.date)
+    );
   }
 
   @action loadActivities = async () => {
@@ -47,14 +48,41 @@ class ActivityStore {
   
   };
 
+  @action editActivity = async (activity: IActivity) => {
+      
+    this.submitting = true;
+    try {
+        await agent.Activities.update(activity);
+        this.activityRegistry.set(activity.id,activity);
+        this.selectActivity(activity.id);
+        this.editMode = false;
+        this.submitting = false;
+    } catch (error) {
+        console.log(error);
+        this.submitting = false;
+    }
+  
+  };
+
   @action openCreateForm= ()=>{
       this.editMode=true;
       this.selectedActivity=undefined;
   }
 
+  @action openEditForm= (id:string)=>{
+    this.selectedActivity=this.activityRegistry.get(id);
+    this.editMode=true;
+}
+@action cancelSelectedActivity= ()=>{
+  this.selectedActivity=undefined;
+}
+
+@action cancelFormOpen= ()=>{
+  this.editMode=false;
+}
+
   @action selectActivity = (id: string) => {
     this.selectedActivity = this.activityRegistry.get(id);
-    this.editMode = false;
   };
 }
 
