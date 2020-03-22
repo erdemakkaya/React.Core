@@ -2,7 +2,7 @@ import React, { useState, useEffect, Fragment, SyntheticEvent,useContext } from 
 import { IActivity } from "../models/activtites";
 import NavBar from "../features/navbar/NavBar";
 import { Container } from "semantic-ui-react";
-import { ActivityDashboard } from "../features/activities/dashboard/ActivityDashboard";
+import  ActivityDashboard  from "../features/activities/dashboard/ActivityDashboard";
 import  agent  from "../api/agent";
 import LoadingComponent from "./LoadingComponent"
 import ActivityStore from "../stores/activityStore";
@@ -63,8 +63,6 @@ const App = () => {
         <ActivityDashboard
           activities={activityStore.activities}
           selectActivity={handleSelectActivity}
-          selectedActivity={selectedActivity!}
-          editMode={editMode}
           setEditMode={setEditMode}
           setSelectedActivity={setSelectedActivity}
           createActivity={handleCreateActivity}
