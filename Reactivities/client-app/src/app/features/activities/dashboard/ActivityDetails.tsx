@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import {  Card, Image, Button,  } from "semantic-ui-react";
 import ActivityStore from '../../../stores/activityStore';
-import { IActivity } from '../../../models/activtites';
 import { observer } from 'mobx-react-lite';
 
  const ActivityDetails:React.FC = () => {
