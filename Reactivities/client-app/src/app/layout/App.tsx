@@ -5,6 +5,8 @@ import  ActivityDashboard  from "../features/activities/dashboard/ActivityDashbo
 import LoadingComponent from "./LoadingComponent"
 import ActivityStore from "../stores/activityStore";
 import {observer} from 'mobx-react-lite';
+import { Route } from "react-router-dom";
+import HomePage from "../features/Home/HomePage"
 
 const App = () => {
  const activityStore = useContext(ActivityStore);
@@ -16,7 +18,7 @@ const App = () => {
     <Fragment>
       <NavBar />
       <Container style={{ marginTop: "7em" }}>
-        <ActivityDashboard/>
+        <Route path='/' component={HomePage} />
       </Container>
     </Fragment>
   );
