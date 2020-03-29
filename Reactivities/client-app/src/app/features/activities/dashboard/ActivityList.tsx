@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
   const activityStore = useContext(ActivityStore);
   const {
     activitiesByDate,
-    selectActivity,
     deleteActivity,
     submitting,
     target

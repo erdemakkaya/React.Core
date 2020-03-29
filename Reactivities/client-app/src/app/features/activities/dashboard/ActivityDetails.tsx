@@ -16,15 +16,13 @@ const ActivityDetails: React.FC<RouteComponentProps<DetailParams>> = ({
   const activityStore = useContext(ActivityStore);
   const {
     activity,
-    openEditForm,
-    cancelSelectedActivity,
     loadActivity,
     loadingInitial
   } = activityStore;
 
   useEffect(() => {
     loadActivity(match.params.id);
-  }, [loadActivity]);
+  }, [loadActivity,match.params.id]);
 
   if (loadingInitial || !activity)
     return <LoadingComponent loading={loadingInitial} />;
