@@ -1,5 +1,5 @@
 import React, { useState, FormEvent,useContext,useEffect } from "react";
-import { Segment, Form, Button } from "semantic-ui-react";
+import { Segment, Form, Button, Grid } from "semantic-ui-react";
 import { IActivity } from "../../../models/activtites";
 import {v4 as uuid} from 'uuid'
 import { observer } from "mobx-react-lite";
@@ -52,7 +52,9 @@ interface DetailParams{
    }
   };
   return (
-    <Segment clearing>
+    <Grid>
+      <Grid.Column width={10}>
+      <Segment clearing>
       <Form>
         <Form.Input
           onChange={handleInputChange}
@@ -103,6 +105,8 @@ interface DetailParams{
         />
       </Form>
     </Segment>
-  );
+      </Grid.Column >
+    </Grid>
+  )
 };
 export default observer(ActivityForm);
