@@ -20,3 +20,4 @@ F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Domain\obj\Debug\netstan
 F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
 F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Domain\obj\Debug\netstandard2.1\Domain.dll
 F:\Users\erdem\Documents\GitHub\React.Core\reactivities\Domain\obj\Debug\netstandard2.1\Domain.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache
