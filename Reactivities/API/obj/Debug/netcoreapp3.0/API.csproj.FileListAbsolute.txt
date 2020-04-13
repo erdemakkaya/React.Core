@@ -206,3 +206,4 @@ D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\API\obj\Debug\netcoreapp3.
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\API\obj\Debug\netcoreapp3.0\API.csproj.CopyComplete
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\API\obj\Debug\netcoreapp3.0\API.dll
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\API\obj\Debug\netcoreapp3.0\API.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
