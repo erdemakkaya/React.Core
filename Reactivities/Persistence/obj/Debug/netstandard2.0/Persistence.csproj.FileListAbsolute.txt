@@ -1,11 +1,22 @@
-D:\Ffmepg\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Persistence.deps.json
-D:\Ffmepg\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Persistence.dll
-D:\Ffmepg\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Persistence.pdb
-D:\Ffmepg\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Domain.dll
-D:\Ffmepg\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Domain.pdb
-D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csprojAssemblyReference.cache
-D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfoInputs.cache
-D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfo.cs
-D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CopyComplete
-D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.dll
-D:\Ffmepg\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.pdb
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\bin\Debug\netstandard2.0\Persistence.deps.json
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\bin\Debug\netstandard2.0\Persistence.dll
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\bin\Debug\netstandard2.0\Persistence.pdb
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\bin\Debug\netstandard2.0\Domain.dll
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\bin\Debug\netstandard2.0\Domain.pdb
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csprojAssemblyReference.cache
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfoInputs.cache
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfo.cs
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CopyComplete
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.dll
+D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Persistence.deps.json
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Persistence.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Persistence.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Domain.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\bin\Debug\netstandard2.0\Domain.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csprojAssemblyReference.cache
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfoInputs.cache
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfo.cs
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CopyComplete
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.dll
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.pdb

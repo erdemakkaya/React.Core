@@ -1,17 +1,15 @@
-﻿using Application.Activities.Errors;
+using System;
+using System.Net;
+using System.Threading;
+using System.Threading.Tasks;
+using Application.Errors;
 using Domain;
 using MediatR;
 using Persistence;
-using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Application.Activities
 {
-  public  class Details
+    public class Details
     {
         public class Query : IRequest<Activity>
         {
@@ -20,17 +18,19 @@ namespace Application.Activities
 
         public class Handler : IRequestHandler<Query, Activity>
         {
-            DataContext _context;
+            private readonly DataContext _context;
             public Handler(DataContext context)
             {
-                _context = context;
+                this._context = context;
             }
+
             public async Task<Activity> Handle(Query request, CancellationToken cancellationToken)
             {
-                 
                 var activity = await _context.Activities.FindAsync(request.Id);
-                 if (activity == null)
-                    throw new RestException(HttpStatusCode.NotFound,new{activity="Not found"});
+
+                if (activity == null)
+                    throw new RestException(HttpStatusCode.NotFound, new { Activity = "Not found" });
+
                 return activity;
             }
         }
