@@ -66,6 +66,8 @@ namespace API
                     policy.Requirements.Add(new IsHostRequirement());
                 });
             });
+            services.AddTransient<IAuthorizationHandler, IsHostRequirementHandler>();
+
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["TokenKey"]));
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(opt =>
