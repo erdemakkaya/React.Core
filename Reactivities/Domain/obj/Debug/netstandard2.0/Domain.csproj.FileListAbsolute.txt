@@ -14,3 +14,4 @@ D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstanda
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.dll
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache

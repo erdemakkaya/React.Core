@@ -9,10 +9,10 @@ import ActivityForm from "../features/activities/form/ActivityForm";
 import ActivityDetails from "../features/activities/dashboard/ActivityDetails";
 import NotFound from "../layout/NotFound";
 import {ToastContainer} from "react-toastify";
-import LoginForm from "../features/user/LoginForm";
 import { RootStoreContext } from "../stores/rootStore";
 import LoadingComponent from "./LoadingComponent";
 import ModalContainer from "../common/modals/ModalContainer";
+import  ProfilePage  from "../features/profiles/ProfilePage";
 
 
 
@@ -45,7 +45,7 @@ if(!appLoaded) return <LoadingComponent loading={!appLoaded}/>
     <Route exact path='/activities' component={ActivityDashboard} />
     <Route path='/activities/:id' component={ActivityDetails} />
     <Route key={location.key} path={['/createActivity','/manage/:id']} component={ActivityForm} />
-    <Route exact path='/login' component={LoginForm} />
+    <Route exact path='/profile/:username' component={ProfilePage} />
      <Route component={NotFound}/>     
      </Switch>
   </Container>

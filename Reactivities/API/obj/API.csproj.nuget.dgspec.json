@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj": {}
+    "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj": {
+    "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj",
+        "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ABS\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\obj\\",
+        "outputPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj"
+              "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj"
               },
-              "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -76,18 +76,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
+    "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\ABS\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\obj\\",
+        "outputPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -106,11 +106,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
               },
-              "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj"
+              "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -153,18 +153,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+    "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ABS\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\obj\\",
+        "outputPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -215,18 +215,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ABS\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -245,11 +245,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj"
+              "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj"
               },
-              "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -288,18 +288,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
+    "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\ABS\\.nuget\\packages\\",
-        "outputPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -318,8 +318,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -362,7 +362,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

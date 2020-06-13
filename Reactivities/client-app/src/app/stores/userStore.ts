@@ -38,6 +38,7 @@ constructor(rootStore:RootStore){
     @action getUser=async()=>{
         try {
             const user=await agent.User.current();
+            console.log(user.username);
             runInAction(()=>{
                 this.user=user;
             })

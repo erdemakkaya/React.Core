@@ -7,7 +7,7 @@ import { RootStoreContext } from "../../../stores/rootStore";
 import { ActivityListItemAttendees } from "./ActivityListItemAttendees";
 
 const ActivitiyListItem: React.FC<{ activity: IActivity }> = ({ activity }) => {
-  const host=activity.attendees.filter(x=>x.isHost)[0];
+  const host = activity.attendees.filter((x) => x.isHost)[0];
   const rootStore = useContext(RootStoreContext);
   const { deleteActivity, submitting, target } = rootStore.activityStore;
   return (
@@ -15,10 +15,20 @@ const ActivitiyListItem: React.FC<{ activity: IActivity }> = ({ activity }) => {
       <Segment>
         <Item.Group>
           <Item>
-            <Item.Image size="tiny" circular src="/assets/user.png" />
+            <Item.Image
+              size="tiny"
+              circular
+              src={host.image || "/assets/user.png"}
+              style={{ marginBottom: 3 }}
+            />
             <Item.Content>
-              <Item.Header as={Link} to={`activities/${activity.id}`}>{activity.title}</Item.Header>
-  <Item.Description>Hosted By {host.displayName}</Item.Description>
+              <Item.Header as={Link} to={`activities/${activity.id}`}>
+                {activity.title}
+              </Item.Header>
+              <Item.Description>
+                Hosted By
+                <Link to={`/profle/${host.username}`}>{host.displayName}</Link>
+              </Item.Description>
               {activity.isHost && (
                 <Item.Description>
                   <Label
@@ -28,7 +38,7 @@ const ActivitiyListItem: React.FC<{ activity: IActivity }> = ({ activity }) => {
                   />
                 </Item.Description>
               )}
-               {activity.isGoing &&activity.isHost&& (
+              {activity.isGoing && activity.isHost && (
                 <Item.Description>
                   <Label
                     basic

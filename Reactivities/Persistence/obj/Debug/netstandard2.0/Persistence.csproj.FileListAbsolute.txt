@@ -20,3 +20,4 @@ D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\nets
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CopyComplete
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.dll
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CoreCompileInputs.cache

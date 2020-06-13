@@ -24,3 +24,4 @@ D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\nets
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CopyComplete
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.0\Application.dll
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.0\Application.pdb
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
