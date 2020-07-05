@@ -9,8 +9,8 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200516194335_PhotoEntityAdded")]
-    partial class PhotoEntityAdded
+    [Migration("20190806022101_AddedCommentEntity")]
+    partial class AddedCommentEntity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -94,6 +94,28 @@ namespace Persistence.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("Domain.Comment", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<Guid?>("ActivityId");
+
+                    b.Property<string>("AuthorId");
+
+                    b.Property<string>("Body");
+
+                    b.Property<DateTime>("CreatedAt");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ActivityId");
+
+                    b.HasIndex("AuthorId");
+
+                    b.ToTable("Comments");
+                });
+
             modelBuilder.Entity("Domain.Photo", b =>
                 {
                     b.Property<string>("Id")
@@ -122,15 +144,9 @@ namespace Persistence.Migrations
 
                     b.Property<bool>("IsHost");
 
-                    b.Property<Guid?>("UserActivityActivityId");
-
-                    b.Property<string>("UserActivityAppUserId");
-
                     b.HasKey("AppUserId", "ActivityId");
 
                     b.HasIndex("ActivityId");
-
-                    b.HasIndex("UserActivityAppUserId", "UserActivityActivityId");
 
                     b.ToTable("UserActivities");
                 });
@@ -271,6 +287,17 @@ namespace Persistence.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("Domain.Comment", b =>
+                {
+                    b.HasOne("Domain.Activity", "Activity")
+                        .WithMany("Comments")
+                        .HasForeignKey("ActivityId");
+
+                    b.HasOne("Domain.AppUser", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorId");
+                });
+
             modelBuilder.Entity("Domain.Photo", b =>
                 {
                     b.HasOne("Domain.AppUser")
@@ -289,10 +316,6 @@ namespace Persistence.Migrations
                         .WithMany("UserActivities")
                         .HasForeignKey("AppUserId")
                         .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("Domain.UserActivity")
-                        .WithMany("UserActivities")
-                        .HasForeignKey("UserActivityAppUserId", "UserActivityActivityId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

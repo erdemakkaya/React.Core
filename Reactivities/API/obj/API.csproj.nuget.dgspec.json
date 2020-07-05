@@ -126,7 +126,7 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.1.1, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -247,9 +247,6 @@
             "projectReferences": {
               "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj": {
                 "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Application\\Application.csproj"
-              },
-              "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Users\\ABS\\Documents\\GitHub\\React.Core\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -265,7 +262,7 @@
           "dependencies": {
             "CloudinaryDotNet": {
               "target": "Package",
-              "version": "[1.10.0, )"
+              "version": "[1.8.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

@@ -1,17 +1,18 @@
-D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Domain\bin\Debug\netstandard2.0\Domain.deps.json
-D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Domain\bin\Debug\netstandard2.0\Domain.dll
-D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Domain\bin\Debug\netstandard2.0\Domain.pdb
-D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
-D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
-D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
-D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.dll
-D:\udemy\New folder\Course Assets\SourceCode\Section12\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.pdb
+D:\udemy\New folder\Course Assets\SourceCode\Section19\Reactivities\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+D:\udemy\New folder\Course Assets\SourceCode\Section19\Reactivities\Domain\bin\Debug\netstandard2.0\Domain.dll
+D:\udemy\New folder\Course Assets\SourceCode\Section19\Reactivities\Domain\bin\Debug\netstandard2.0\Domain.pdb
+D:\udemy\New folder\Course Assets\SourceCode\Section19\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+D:\udemy\New folder\Course Assets\SourceCode\Section19\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+D:\udemy\New folder\Course Assets\SourceCode\Section19\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+D:\udemy\New folder\Course Assets\SourceCode\Section19\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+D:\udemy\New folder\Course Assets\SourceCode\Section19\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.dll
+D:\udemy\New folder\Course Assets\SourceCode\Section19\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.pdb
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\bin\Debug\netstandard2.0\Domain.deps.json
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\bin\Debug\netstandard2.0\Domain.dll
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\bin\Debug\netstandard2.0\Domain.pdb
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.dll
 D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.pdb
-D:\Users\ABS\Documents\GitHub\React.Core\Reactivities\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache

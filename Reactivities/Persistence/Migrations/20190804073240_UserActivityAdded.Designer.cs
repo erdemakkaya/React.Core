@@ -9,7 +9,7 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200502225234_UserActivityAdded")]
+    [Migration("20190804073240_UserActivityAdded")]
     partial class UserActivityAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -102,15 +102,9 @@ namespace Persistence.Migrations
 
                     b.Property<bool>("IsHost");
 
-                    b.Property<Guid?>("UserActivityActivityId");
-
-                    b.Property<string>("UserActivityAppUserId");
-
                     b.HasKey("AppUserId", "ActivityId");
 
                     b.HasIndex("ActivityId");
-
-                    b.HasIndex("UserActivityAppUserId", "UserActivityActivityId");
 
                     b.ToTable("UserActivities");
                 });
@@ -262,10 +256,6 @@ namespace Persistence.Migrations
                         .WithMany("UserActivities")
                         .HasForeignKey("AppUserId")
                         .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("Domain.UserActivity")
-                        .WithMany("UserActivities")
-                        .HasForeignKey("UserActivityAppUserId", "UserActivityActivityId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 
 namespace Domain
 {
@@ -11,7 +10,5 @@ namespace Domain
         public virtual Activity Activity { get; set; }
         public DateTime DateJoined { get; set; }
         public bool IsHost { get; set; }
-        public virtual ICollection<UserActivity> UserActivities { get; set; }
-
     }
 }
